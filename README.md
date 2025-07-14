@@ -185,6 +185,8 @@ Overall, **the TextCNN model shows more stable and generalizable learning**, whi
   - 🔍 **Hyperparameter Tuning:** Explore different batch sizes, learning rates, and hidden dimensions
   - 🔄 **Data Augmentation:** Improve generalization by increasing diversity of training examples
 ---  
-Final Conclusion: Transformer models are better suited for this task because they are designed to capture contextual relationships across different parts of a sequence. Even when combining the user prompt and multiple model outputs into a single input, transformers can understand their roles if special tokens or structured prompts are used. Unlike simpler models, they use self-attention to compare and relate information across the full input, enabling deeper understanding of which output aligns better with the prompt. This makes them ideal for tasks where distinguishing subtle differences in relevance and coherence is crucial.
+### Final Conclusion
+
+Transformer models are better suited for this task because they are designed to capture contextual relationships across different parts of a sequence. Even when combining the user prompt and multiple model outputs into a single input, transformers can understand their roles if special tokens or structured prompts are used. Unlike simpler models, they use self-attention to compare and relate information across the full input, enabling deeper understanding of which output aligns better with the prompt. This makes them ideal for tasks where distinguishing subtle differences in relevance and coherence is crucial.
 
 
