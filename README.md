@@ -106,9 +106,9 @@ Same structure as the baseline with added **Dropout** layers to reduce overfitti
    → Output shape: `(16, 3)`
 
 **Total Parameters**: ~257K  
-**Regularization**: Dropout (rate = 0.2)
+**Regularization**: Dropout (rate = 0.2) 
+
 ---
-   - 
 ### ✅ Training Loop
 - Used Adam optimizer and CrossEntropy loss.
 - Included validation after every epoch.
